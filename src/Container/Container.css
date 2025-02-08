@@ -1,0 +1,31 @@
+#Box {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Container {
+    position: relative;
+    background-color: #353d6f;
+    width: 500px;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 0px 5px 25px hwb(239 21% 28% / 0.5);
+}
+
+@media screen and (max-width: 550px) {
+    #Container {
+        width: 90vw;
+    }
+    #Container h2{
+        font-size: 16px;
+    }
+}
+
+/*
+    #18225F
+*/

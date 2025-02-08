@@ -1,0 +1,33 @@
+#TransactionButton {
+    background-color: #969dd4;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: absolute;
+    bottom: -24px;
+    right: -24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+  
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+#TransactionButton:hover {
+    transform: rotate(224deg);
+}
+
+@media screen and (max-width: 550px) {
+    #TransactionButton{
+        height: 52px;
+        width: 52px;
+        bottom: -14px;
+        right: -14px;
+    }
+}
