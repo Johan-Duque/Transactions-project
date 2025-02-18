@@ -5,7 +5,7 @@ function Container (props) {
     return (
         <div id="Box">
             <div id="Container">
-                <h2>Historial de ingresos - gastos</h2>
+                <h2>income - expense history</h2>
                 {props.children}
             </div>
         </div>

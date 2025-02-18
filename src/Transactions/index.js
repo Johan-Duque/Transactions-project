@@ -6,8 +6,7 @@ function Transactions ({title, money, background}) {
         <div style={{
             background: background
         }} className="Transactions">
-            <h3>{title}</h3>
-            <p>{money}$</p>
+            <h3>{title}: {money}$</h3>
         </div>
     )
 }

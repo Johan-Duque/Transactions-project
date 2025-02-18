@@ -14,9 +14,11 @@ function App() {
        <Container>
           <SearchTransactions/>
 
-          <Transactions title={"Ingresos"} money={0} background={"rgb(6, 117, 6)"}/>
-          <Transactions title={"Beneficio"} money={0} background={"rgb(0, 88, 204)"}/>
-          <Transactions title={"Gastos"} money={0} background={"rgb(150, 7, 7)"}/>
+          <div style={{width: '99%'}}>
+          <Transactions title={"Income"} money={0} background={"rgb(6, 117, 6)"}/>
+          <Transactions title={"benefit"} money={0} background={"rgb(0, 88, 204)"}/>
+          <Transactions title={"Expense"} money={0} background={"rgb(150, 7, 7)"}/>
+          </div>
 
           <TransactionHistory/>
           <TransactionButton/>
